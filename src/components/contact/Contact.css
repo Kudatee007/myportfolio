@@ -35,9 +35,18 @@
 .contactBox {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 .mailIcon {
   width: 22px;
   height: 25px;
+}
+@media (min-width: 769px) {
+  .contactpTxt {
+    width: 60ch;
+  }
+  .contact1Txt {
+    font-size: 90px;
+  }
 }

@@ -5,14 +5,20 @@ const About = () => {
   return (
     <div className="About">
       <div className="heyBox">
-        <h1 className="hey1Txt">Hey, i'm Timmy<span className="green">.</span></h1>
-        <h6 className="hey6Txt">I'm a <span className="heyGreen">Full Stack Developer</span></h6>
-        <p className="heypTxt">
-          I've spent the last 5 years building and scaling software for some
-          pretty cool companies. I also teach people to paint online (incase
-          you've got an empty canvas layin' around 🎨). Let's connect!
-        </p>
-        <p className="heyContact">Contact me</p>
+        <div className="heyPad">
+          <h1 className="hey1Txt">
+            Hey, i'm Timmy<span className="green">.</span>
+          </h1>
+          <h6 className="hey6Txt">
+            I'm a <span className="heyGreen">Full Stack Developer</span>
+          </h6>
+          <p className="heypTxt">
+            I've spent the last 5 years building and scaling software for some
+            pretty cool companies. I also teach people to paint online (incase
+            you've got an empty canvas layin' around 🎨). Let's connect!
+          </p>
+          <p className="heyContact">Contact me</p>
+        </div>
       </div>
       <div className="boxAbout">
         <div className="lineBox">
@@ -23,18 +29,20 @@ const About = () => {
         </div>
         <div className="aboutBox">
           <p className="aboutP">
-            As a student studying finance, I have developed a strong foundation
-            in financial analysis and decision-making. However, I have always
-            had a passion for front-end web development and have dedicated much
-            of my time to learning and improving my skills in this area. I am
-            skilled in HTML, CSS, and JavaScript and have a strong eye for
-            design. I am determined to become a well-rounded developer and am
-            always seeking out new challenges and opportunities to improve my
-            skills. In my spare time, I enjoy working on personal projects and
+            <span className="hTxt">A</span>s a student studying finance, I have
+            developed a strong foundation in financial analysis and
+            decision-making. However, I have always had a passion for front-end
+            web development and have dedicated much of my time to learning and
+            improving my skills in this area. <br />
+            <br /> I am skilled in HTML, CSS, and JavaScript and have a strong
+            eye for design. I am determined to become a well-rounded developer
+            and am always seeking out new challenges and opportunities to
+            improve my skills. <br /> <br />
+            In my spare time, I enjoy working on personal projects and
             collaborating with others to create beautiful and functional
             websites.
           </p>
-          <div>
+          <div className="useWrkBox">
             <div>
               <h2 className="useTxt">Use at work</h2>
               <ul className="useTxtUl">

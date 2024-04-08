@@ -1,0 +1,68 @@
+.Exp {
+  background-color: #111;
+  padding-left: 72px;
+  padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.exppTxt {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+.workPlace {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.workDate {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+}
+.workJob {
+  color: #0aff9d;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.workBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+@media (min-width: 640px) {
+  .Exp {
+    padding-left: 90px;
+  }
+}
+@media (min-width: 769px) {
+  .Exp {
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .Exp {
+    padding-left: 180px;
+    padding-right: 100px;
+  }
+}
+@media (min-width: 1300px) {
+  .Exp {
+    padding-left: 200px;
+    padding-right: 120px;
+  }
+}
+@media (min-width: 1400px) {
+  .Exp {
+    padding-left: 220px;
+    padding-right: 140px;
+  }
+}

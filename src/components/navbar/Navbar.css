@@ -72,6 +72,28 @@
 .hamburger {
   display: none;
 }
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 100px;
+  height: 0px;
+  width: 300px;
+  /* background-color: rgba(255, 255, 255, 0); */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: #111; */
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: none;
+}
+
+.sideBar {
+  margin-left: 14px;
+}
+
 @media (max-width: 1020px) {
   .topBarTxtWhite {
     font-size: 14px;
@@ -101,10 +123,34 @@
     width: 40px;
     /* border: 1px solid green; */
   }
+  .dropdown_menu {
+    display: block;
+    height: 0px;
+  }
+  .open {
+    height: 180px;
+    padding: 50px 0px;
+  }
   .hamburgerBox {
     display: flex;
     align-items: center;
     gap: 15px;
+  }
+  .topBarTxtWhiteMenu {
+    color: rgb(232, 222, 222);
+    font-family: "Poppins", sans-serif;
+    opacity: 0.7;
+    font-size: 17px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 540px) {
+  .sideBar {
+    margin-left: 4px;
   }
 }
 @media (max-width: 440px) {
