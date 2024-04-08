@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div className="hamburgerBox">
           <h2 className="topBarTxtGreen">My resume</h2>
-          <GiHamburgerMenu className="hamburger"/>
+          <GiHamburgerMenu className="hamburger" />
         </div>
       </div>
       <div className="sideBar">

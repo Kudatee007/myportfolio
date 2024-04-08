@@ -1,0 +1,130 @@
+.About {
+  background-color: #111;
+  /* padding-top: 200px;
+  padding-left: 250px;
+  padding-right: 250px; */
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-left: 72px;
+  padding-right: 20px;
+  /* height: 200vh; */
+  /* position: relative;
+  z-index: 1; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Archivo+Black&family=Bangers&family=Bungee+Outline&family=Corben:wght@400;700&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Glitch+Pop&display=swap");
+.aboutH1 {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+}
+.green {
+  color: #0aff9d;
+}
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Archivo+Black&family=Bangers&family=Bungee+Outline&family=Corben:wght@400;700&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Rubik+Glitch+Pop&display=swap");
+.aboutP {
+  color: rgb(232, 222, 222);
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  text-align: start;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.useTxt {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.lineBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 35px;
+  /* justify-content: space-between; */
+}
+.hrLine {
+  width: 100%;
+  height: 0px;
+  opacity: 0.3;
+}
+.useTxtUl {
+  padding-bottom: 50px;
+}
+.useTxtLi {
+  text-align: center;
+  color: white;
+  list-style: none;
+  background-color: #222;
+  padding: 8px 10px;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+.aboutBox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.boxAbout {
+  padding-top: 80px;
+}
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 9px;
+}
+.heyBox {
+  background-image: url(../img/div.dotgrid_dotGrid__fIloK.svg);
+  padding-top: 100px;
+  /* padding-right: 20px; */
+  height: 100vh;
+}
+.hey1Txt {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  /* padding-bottom: 20px; */
+}
+.hey6Txt {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 35px;
+  padding: 25px 0;
+}
+.heypTxt {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.heyContact {
+  text-align: center;
+  color: black;
+  padding: 18px 0;
+  font-size: 19px;
+  background-color: #0aff9d;
+  width: 160px;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  /* height: 60px; */
+}
+.heyGreen {
+  color: #0aff9d;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 35px;
+}

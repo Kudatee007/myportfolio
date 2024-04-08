@@ -1,0 +1,43 @@
+.Contact {
+  background-color: #111;
+  padding-left: 72px;
+  padding-right: 20px;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact1Txt {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+.contactpTxt {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  padding: 30px 0;
+}
+.contactppTxt {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  /* width: 10px; */
+  letter-spacing: 2px;
+}
+.contactBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mailIcon {
+  width: 22px;
+  height: 25px;
+}
