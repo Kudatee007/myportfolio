@@ -58,6 +58,7 @@
   opacity: 0.9;
   width: 22px;
   height: 22px;
+  color: black;
 }
 .sideBarIconRound {
   background-color: white;
@@ -66,6 +67,7 @@
   border-radius: 150px;
   width: 22px;
   height: 22px;
+  color: black;
 }
 .sideBar {
   position: fixed;
@@ -91,7 +93,7 @@
   height: 0px;
   width: 300px;
   /* background-color: rgba(255, 255, 255, 0); */
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   /* background-color: #111; */
   backdrop-filter: blur(15px);
   border-radius: 10px;
@@ -148,9 +150,9 @@
     gap: 15px;
   }
   .topBarTxtWhiteMenu {
-    color: rgb(232, 222, 222);
+    color: white;
     font-family: "Poppins", sans-serif;
-    opacity: 0.7;
+    opacity: 1;
     font-size: 17px;
     text-align: center;
     line-height: 40px;
