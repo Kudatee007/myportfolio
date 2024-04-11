@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Resume from "../img/KUDAISI TIMILEHIN (2).pdf";
+import Resume from "../img/KUDAISI TIMILEHIN.pdf";
 
 const Navbar = () => {
   const [expand, setExpand] = useState(true);
@@ -33,23 +33,23 @@ const Navbar = () => {
       const contactSection = document.getElementById("Contact");
 
       if (
-        currentScrollPos < projectSection.offsetTop - 100 &&
-        currentScrollPos >= aboutSection.offsetTop - 100
+        currentScrollPos >= homeSection.offsetTop - 100 &&
+        currentScrollPos < aboutSection.offsetTop - 100
       ) {
         setActiveSection("Home");
       } else if (
-        currentScrollPos < expSection.offsetTop - 100 &&
-        currentScrollPos >= projectSection.offsetTop - 100
+        currentScrollPos >= aboutSection.offsetTop - 100 &&
+        currentScrollPos < projectSection.offsetTop - 100
       ) {
         setActiveSection("About");
       } else if (
-        currentScrollPos < expSection.offsetTop - 100 &&
-        currentScrollPos >= projectSection.offsetTop - 100
+        currentScrollPos >= projectSection.offsetTop - 100 &&
+        currentScrollPos < expSection.offsetTop - 100
       ) {
         setActiveSection("Project");
       } else if (
-        currentScrollPos < contactSection.offsetTop - 100 &&
-        currentScrollPos >= expSection.offsetTop - 100
+        currentScrollPos >= expSection.offsetTop - 100 &&
+        currentScrollPos < contactSection.offsetTop - 100
       ) {
         setActiveSection("Exp");
       } else if (currentScrollPos >= contactSection.offsetTop - 100) {
@@ -119,7 +119,9 @@ const Navbar = () => {
         </div>
         <div className="hamburgerBox">
           <a href={Resume} target="blank">
-            <h2 className="topBarTxtGreen" data-aos="zoom-in">My resume</h2>
+            <h2 className="topBarTxtGreen" data-aos="zoom-in">
+              My resume
+            </h2>
           </a>
           {expand ? (
             <GiHamburgerMenu className="hamburger" onClick={Handler} />
@@ -135,14 +137,22 @@ const Navbar = () => {
         <h3 className="topBarTxtWhiteMenu">Contact</h3>
       </div>
       <div className="sideBar" data-aos="fade-up-right">
-        <a href="https://www.linkedin.com/in/timilehin-kudaisi-87834524a/" target="_blank" rel="noopener noreferrer">
-        <FaLinkedinIn className="sideBarIcon" />
+        <a
+          href="https://www.linkedin.com/in/timilehin-kudaisi-87834524a/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedinIn className="sideBarIcon" />
         </a>
         <a href="https://github.com/Kudatee007" target="_blank">
           <TbBrandGithubFilled className="sideBarIconRound" />
         </a>
-        <a href="https://twitter.com/Kudatee001" target="_blank" rel="noopener noreferrer">
-        <FaTwitter className="sideBarIconRound" />
+        <a
+          href="https://twitter.com/Kudatee001"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter className="sideBarIconRound" />
         </a>
       </div>
     </div>

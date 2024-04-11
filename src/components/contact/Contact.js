@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="contactBox">
           <img src={mail} alt="" className="mailIcon" />
           <Reveal>
-            <p className="contactppTxt">Timilehinkudaisi01@gmail.com</p>
+            <p className="contactppTxt">Timilehinkudaisi@gmail.com</p>
           </Reveal>
         </div>
       </div>
