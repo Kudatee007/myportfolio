@@ -16,35 +16,38 @@ const Exp = () => {
       </div>
       <div>
         <div className="workBox">
-        <Reveal>
-          <h3 className="workPlace">Google</h3>
+          <Reveal>
+            <h3 className="workPlace">Tech Studio</h3>
           </Reveal>
           <Reveal>
-          <p className="workDate">2022 - PRESENT</p>
+            <p className="workDate">2022 - 2023</p>
           </Reveal>
         </div>
         <div className="workBox">
-        <Reveal>
-          <h3 className="workJob">Software Engineer</h3>
+          <Reveal>
+            <h3 className="workJob">Software Development</h3>
           </Reveal>
           <Reveal>
-          <p className="workDate">Atlanta</p>
+            <p className="workDate">lagos</p>
           </Reveal>
         </div>
         <Reveal>
-        <p className="exppTxt">
-          Data Engineer for store front. Built data pipelines with Spark and
-          Airflow. Saw Bezos one time. He said he liked my paintings. I said I
-          liked his hair.
-        </p>
+          <p className="exppTxt">
+            Tech Studio holds a special place in my journey as a software
+            developer. It's where I embarked on the exhilarating path of
+            learning and mastering the craft of software development.
+          </p>
         </Reveal>
         <Reveal>
-        <ul>
-          <li className="useTxtLi">Tailwind</li>
-          <li className="useTxtLi">Sass</li>
-          <li className="useTxtLi">Python</li>
-          <li className="useTxtLi">GraphQL</li>
-        </ul>
+          <ul>
+            <li className="useTxtLi">Html</li>
+            <li className="useTxtLi">Css</li>
+            <li className="useTxtLi">Javascript</li>
+            <li className="useTxtLi">React</li>
+            <li className="useTxtLi">Express</li>
+            <li className="useTxtLi">MongoDb</li>
+            <li className="useTxtLi">Node</li>
+          </ul>
         </Reveal>
       </div>
     </div>

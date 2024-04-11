@@ -22,6 +22,7 @@
   letter-spacing: 5px;
   line-height: 40px;
   opacity: 0.7;
+  cursor: pointer;
 }
 .topBarTxtWhite.active {
   /* text-decoration: underline;

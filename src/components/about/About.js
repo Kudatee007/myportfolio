@@ -3,6 +3,12 @@ import "./About.css";
 import Reveal from "../utils/Reveal";
 
 const About = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="About" id="Home">
       <div className="heyBox">
@@ -19,30 +25,30 @@ const About = () => {
           </Reveal>
           <Reveal>
             <p className="heypTxt">
-              I've spent the last 5 years building and scaling software for some
-              pretty cool companies. I also teach people to paint online (incase
-              you've got an empty canvas layin' around 🎨). Let's connect!
+              For the past two years, I've been fully immersed in learning and
+              building. Every day has been a journey of growth and discovery.
+              Let's create something extraordinary together.
             </p>
           </Reveal>
           <Reveal>
-            <p className="heyContact">Contact me</p>
+            <p className="heyContact" onClick={() => scrollToSection("Contact")}>Contact me</p>
           </Reveal>
         </div>
       </div>
       <div className="boxAbout" id="About">
         <div className="lineBox boxLine">
           {/* <Reveal> */}
-            <h1 className="aboutH1">
-              About<span className="green">.</span>
-            </h1>
+          <h1 className="aboutH1">
+            About<span className="green">.</span>
+          </h1>
           {/* </Reveal> */}
-         <div className="hrLine"></div>
+          <div className="hrLine"></div>
         </div>
         <div className="aboutBox">
           <p className="aboutP">
             <Reveal>
-              <span className="hTxt">A</span>s a student studying finance, I
-              have developed a strong foundation in financial analysis and
+              <span className="hTxt">A</span>s a recent finance graduate, I have
+              developed a strong foundation in financial analysis and
               decision-making. However, I have always had a passion for
               front-end web development and have dedicated much of my time to
               learning and improving my skills in this area.
@@ -50,16 +56,18 @@ const About = () => {
             <br />
             <br />
             <Reveal>
-              I am skilled in HTML, CSS, and JavaScript and have a strong eye
-              for design. I am determined to become a well-rounded developer and
-              am always seeking out new challenges and opportunities to improve
-              my skills.
+              I am skilled in HTML, CSS, JavaScript, React.js, Node.js, and
+              proficiency in modern tools like Tailwind CSS and Sass, and i
+              thrive on turning ideas into dynamic, user-centric web
+              applications. My journey from finance to full-stack development
+              has been driven by an insatiable curiosity and a relentless
+              pursuit of growth.
             </Reveal>
             <br /> <br />
             <Reveal>
-              In my spare time, I enjoy working on personal projects and
-              collaborating with others to create beautiful and functional
-              websites.
+              Outside of coding, you'll find me immersed in personal projects,
+              exploring the latest trends in web development, or engaging in
+              meaningful collaborations to bring ideas to life.
             </Reveal>
           </p>
           <div className="useWrkBox">
@@ -90,7 +98,6 @@ const About = () => {
                 <ul>
                   <li className="useTxtLi">Tailwind</li>
                   <li className="useTxtLi">Sass</li>
-                  <li className="useTxtLi">Python</li>
                   <li className="useTxtLi">GraphQL</li>
                 </ul>
               </Reveal>

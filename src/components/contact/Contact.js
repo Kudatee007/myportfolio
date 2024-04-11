@@ -8,20 +8,21 @@ const Contact = () => {
     <div className="Contact" id="Contact">
       <div>
         {/* <Reveal> */}
-          <h1 className="contact1Txt">
-            Contact<span className="green">.</span>
-          </h1>
+        <h1 className="contact1Txt">
+          Contact<span className="green">.</span>
+        </h1>
         {/* </Reveal> */}
         <Reveal>
           <p className="contactpTxt">
-            Shoot me an email if you want to connect! You can also find me on
-            Linkedin or Twitter if that's more your speed.
+            Feel free to reach out via email if you'd like to connect!
+            Alternatively, you can connect with me on LinkedIn or Twitter if
+            that suits you better.
           </p>
         </Reveal>
         <div className="contactBox">
           <img src={mail} alt="" className="mailIcon" />
           <Reveal>
-            <p className="contactppTxt">Timilehinkudaisi01</p>
+            <p className="contactppTxt">Timilehinkudaisi01@gmail.com</p>
           </Reveal>
         </div>
       </div>

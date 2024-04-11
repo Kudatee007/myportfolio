@@ -119,7 +119,7 @@ const Navbar = () => {
         </div>
         <div className="hamburgerBox">
           <a href={Resume} target="blank">
-            <h2 className="topBarTxtGreen">My resume</h2>
+            <h2 className="topBarTxtGreen" data-aos="zoom-in">My resume</h2>
           </a>
           {expand ? (
             <GiHamburgerMenu className="hamburger" onClick={Handler} />
