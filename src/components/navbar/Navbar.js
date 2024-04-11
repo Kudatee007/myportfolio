@@ -72,6 +72,13 @@ const Navbar = () => {
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
+    setExpand(!expand);
+  }
+  function scrollToSection1(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   }
   return (
     <div className={`navBar ${visible ? "" : "scroll"}`}>
@@ -81,7 +88,7 @@ const Navbar = () => {
           alt=""
           className="tkImg"
           data-aos="fade-up-right"
-          onClick={() => scrollToSection("Home")}
+          onClick={() => scrollToSection1("Home")}
         />
         <div className="txtTopBar">
           <h3
@@ -131,10 +138,38 @@ const Navbar = () => {
         </div>
       </div>
       <div className={expand ? "dropdown_menu" : "dropdown_menu open"}>
-        <h3 className="topBarTxtWhiteMenu">About</h3>
-        <h3 className="topBarTxtWhiteMenu">Projects</h3>
-        <h3 className="topBarTxtWhiteMenu">Exp.</h3>
-        <h3 className="topBarTxtWhiteMenu">Contact</h3>
+        <h3
+          className={`topBarTxtWhiteMenu ${
+            activeSection === "About" ? "active" : ""
+          }`}
+          onClick={() => scrollToSection("About")}
+        >
+          About
+        </h3>
+        <h3
+            className={`topBarTxtWhiteMenu ${
+              activeSection === "Project" ? "active" : ""
+            }`}
+            onClick={() => scrollToSection("Project")}
+          >
+            Projects
+          </h3>
+          <h3
+            className={`topBarTxtWhiteMenu ${
+              activeSection === "Exp" ? "active" : ""
+            }`}
+            onClick={() => scrollToSection("Exp")}
+          >
+            Exp.
+          </h3>
+          <h3
+            className={`topBarTxtWhiteMenu ${
+              activeSection === "Contact" ? "active" : ""
+            }`}
+            onClick={() => scrollToSection("Contact")}
+          >
+            Contact
+          </h3>
       </div>
       <div className="sideBar" data-aos="fade-up-right">
         <a
